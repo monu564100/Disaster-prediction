@@ -1,0 +1,84 @@
+/* Container for High-Alert Box */
+.high-alert-box {
+    background-color: #fff5f5;
+    padding: 20px;
+    border: 2px solid #d32f2f;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Title for High-Alert Areas */
+  .high-alert-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d32f2f;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  /* Individual News Card Styling */
+  .news-card {
+    background-color: #ffebee;
+    border: 1px solid #d32f2f;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(211, 47, 47, 0.2);
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .news-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* News Title */
+  .news-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b71c1c;
+    margin-bottom: 8px;
+  }
+  
+  /* News Description */
+  .news-card-description {
+    font-size: 16px;
+    color: #5f5f5f;
+    margin-bottom: 12px;
+  }
+  
+  /* Link to Read More */
+  .news-card-link {
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .news-card-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Message when no news is available */
+  .no-news {
+    font-size: 18px;
+    color: #757575;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .high-alert-title {
+      font-size: 20px;
+    }
+  
+    .news-card-title {
+      font-size: 18px;
+    }
+  
+    .news-card-description {
+      font-size: 14px;
+    }
+  
+    .no-news {
+      font-size: 16px;
+    }
+  }
+  
